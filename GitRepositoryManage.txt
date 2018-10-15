@@ -1,0 +1,50 @@
+Git仓库管理
+
+一、设置用户环境
+1.设置用户名
+    git config --global user.name 'TianyuChenc'
+2.设置用户名邮箱
+    git config --global user.email 'TianyuChenc@163.com'
+*查看用户信息
+    git config --list
+
+二、获得仓库
+(1) 创建仓库文件夹并git初始化
+1.创建仓库文件夹
+    mkdir 文件夹名
+2.进入文件夹
+    cd 文件夹名
+3.git初始化
+    git init
+(2) 下载远程仓库
+    git clone 网址
+
+三、文件管理
+(1) 新建文件及提交
+1.创建文件到工作区
+    touch 文件名(a1.php)
+2.查看状态
+    git status
+3.添加文件到暂存区
+    git add a1.php
+4.提交文件到仓库
+    git commit -m 'git add a1.php'
+(2) 修改文件及提交
+1.进入编辑状态
+    vi a1.php  
+    i (进入"输入状态")
+2.输入内容
+3.保存退出
+    esc (进入"底线命令状态")
+    :wq
+4.查看文件  
+    cat a1.php 
+5.添加暂存区、提交仓库同上
+(3) 删除文件及提交
+1.文件删除
+    rm a1.php
+2.添加暂存区、提交仓库同上
+
+四、上传到远程仓库
+    git push
+
