@@ -1,0 +1,4 @@
+# GitHubStudyNotes
+GitHub入门学习笔记
+
+这是一个存放我学习如何使用GitHub笔记的仓库，这些笔记包含GitHub的基本概念、使用操作及学习视频教程的链接等。
